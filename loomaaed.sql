@@ -18,3 +18,5 @@ SELECT nimi, puur FROM andrei_loomaaed WHERE puur=10;
 SELECT MAX(vanus), MIN(vanus) FROM andrei_loomaaed;
 
 SELECT puur, COUNT(*) FROM andrei_loomaaed GROUP BY puur;
+
+UPDATE andrei_loomaaed SET vanus=vanus+1;
