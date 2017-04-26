@@ -14,3 +14,7 @@ INSERT INTO andrei_loomaaed VALUES
 (NULL, 'Suur kass', 10, 'Tiiger', 13);
 
 SELECT nimi, puur FROM andrei_loomaaed WHERE puur=10;
+
+SELECT MAX(vanus), MIN(vanus) FROM andrei_loomaaed;
+
+SELECT puur, COUNT(*) FROM andrei_loomaaed GROUP BY puur;
